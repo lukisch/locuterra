@@ -42,9 +42,14 @@ Alle Daten sind fiktiv und leben im Client.
 
 ## Konzeptdokumente
 
+LOCUTERRA besteht aus zwei Konzepten: dem **Plattformkonzept** (wie das
+Netzwerk funktioniert) und dem **Finanzierungskonzept** (wie es sich
+trägt). Beide gehören zusammen, sind aber bewusst getrennt dokumentiert.
+
 | Dokument | Inhalt |
 |---|---|
 | [KONZEPT.md](./KONZEPT.md) | Ursprüngliche Produktidee und MVP-Schnitt |
+| [FINANZIERUNGSKONZEPT.md](./FINANZIERUNGSKONZEPT.md) | Arena-Modell, Sponsoring und Erlösverteilung |
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | Technischer Zielstack und Domänenmodule |
 | [DATENMODELL.md](./DATENMODELL.md) | Logisches Datenmodell für den MVP |
 | [DATENSCHUTZ.md](./DATENSCHUTZ.md) | Datenschutz- und Einwilligungsmodell |

@@ -72,7 +72,7 @@ Die ausführliche Rollout-Logik steht in [PORTIERUNGSPLAN.md](./PORTIERUNGSPLAN.
 | **Public Contact Points** | Bürgerkontakt-Anfragen an Institutionen | Später |
 | **Warnings** | Katastrophen- und Krisenwarnungen | Später, hochsensibel |
 | **Marketplace** | Geldbasierte Angebote mit separater Transaktionslogik | Später, getrennt |
-| **Sponsoring/Arena** | Ortsbezogene Sponsoringsichtbarkeit | Später |
+| **Sponsoring/Arena** | Ortsbezogene Sponsoringsichtbarkeit; Details in [FINANZIERUNGSKONZEPT.md](./FINANZIERUNGSKONZEPT.md) | Später |
 | **Moderation & Trust** | Meldungen, Sperren, Missbrauchsschutz; Details in `SICHERHEIT_UND_MISSBRAUCH.md` und `GOVERNANCE.md` | Spezifiziert |
 
 ## Konzeptioneller Datenfluss

@@ -3,8 +3,10 @@
 ## A
 
 **Arena**  
-Sponsoringmodell, bei dem ein Unternehmen einen Ort zeitweise sichtbar besetzt
-und dort ein digitales Schild oder Informationsangebot erhält.
+Sponsoringmodell, bei dem genau ein Unternehmen einen Ort zeitweise sichtbar
+sponsert. Vergabe per Auktion; der Höchstbietende erhält den Platz für einen
+Monat. Einnahmen werden 50/50 zwischen Ortseigentümer und Plattforminfrastruktur
+aufgeteilt. Details in [FINANZIERUNGSKONZEPT.md](./FINANZIERUNGSKONZEPT.md).
 
 ## B
 
@@ -15,6 +17,13 @@ Nicknames, nicht automatisch echte Kontaktdaten.
 **Bürgerkontaktstelle**  
 Anlaufstelle für strukturierte Anfragen von Bürgern an Institutionen, Kommunen
 oder Organisationen.
+
+## D
+
+**Digitales Schild**  
+Virtuelle Werbefläche eines Sponsors an einem Ort im Außenbereich (Plätze,
+Gebäudefassaden). Statisch, dezent, kein Pop-up. Nur sichtbar auf der
+Ortsseite in der App.
 
 ## E
 
@@ -36,9 +45,19 @@ behandelt.
 
 ## O
 
+**Ort-Sponsoring**  
+Sponsoringform für geschlossene Räume (Bars, Restaurants, Vereinsheime). Der
+gesamte Ort wird von einem Unternehmen unterstützt; dezenter Hinweis auf der
+Ortsseite. Abgrenzung zu digitalen Schildern (nur Außenbereich).
+
 **Ort**  
 Digital repräsentierter realer oder organisationsinterner Raum. Orte können
 Feeds, Gruppen, Ressourcen, Warnungen oder Sponsoringflächen tragen.
+
+**Ortshoheit**  
+Das Recht des Ortseigentümers, über Sponsoring an seinem Ort zu entscheiden.
+Sponsoring ist standardmäßig deaktiviert (Opt-in). Der Eigentümer wählt die
+erlaubte Form und kann jederzeit sperren.
 
 ## R
 
