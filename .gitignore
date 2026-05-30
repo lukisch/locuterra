@@ -1,0 +1,43 @@
+# Internal agent/session files (not for public repo)
+CLAUDE.md
+AGENTS.md
+START.md
+STATE.md
+TODO.md
+AUFGABEN.txt
+DONE.md
+_tools/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Local test locks
+TEST.txt
+TESTS.txt
+releases/
