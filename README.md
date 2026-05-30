@@ -15,7 +15,9 @@ frei zur Verfügung, damit Kommunen, gemeinnützige Organisationen oder
 
 ## Demonstrator
 
-Im Ordner [`demo/`](./demo) liegt ein klickbarer Konzept-Demonstrator,
+**[Live-Demo ansehen](https://lukisch.github.io/locuterra/)**
+
+Im Ordner [`demo/`](./demo) liegt der Quellcode des Konzept-Demonstrators,
 gebaut mit Next.js, React und TypeScript. Er zeigt die fiktive Kommune
 **Grüntal** mit synthetischen Daten:
 
