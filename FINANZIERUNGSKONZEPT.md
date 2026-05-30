@@ -33,6 +33,49 @@ gemeinnütziger Verein sein.
 Diese Säule sichert die Unabhängigkeit: Die Plattform muss nicht
 profitabel sein, um zu existieren. Sie muss nur ihren Zweck erfüllen.
 
+### Warum der Staat der ideale Träger ist
+
+LOCUTERRA ersetzt keine bestehenden Messenger oder Social Networks. Es
+ergänzt sie um etwas, das es heute nicht gibt: eine digitale Schicht
+für lokale öffentliche Infrastruktur.
+
+Der entscheidende Mechanismus: Wenn der Staat LOCUTERRA als Kanal für
+Bürgersprechstunden, Straßensperrungen, Krisenwarnungen, kommunale
+Informationskanäle und Kontaktstellen nutzt, entsteht Nachfrage
+automatisch. Bürger müssen die Plattform nutzen, um auf öffentliche
+Dienste zuzugreifen — nicht weil ein Algorithmus sie lockt, sondern
+weil relevante Inhalte dort sind.
+
+Das Prinzip ist dasselbe, das Geld funktionieren lässt: Der Staat
+erhebt Steuern in seiner Währung, also muss jeder, der im Staatsgebiet
+wirtschaftet, diese Währung vorhalten. Nicht Zwang, sondern strukturelle
+Relevanz erzeugt Adoption. Bei LOCUTERRA: Der Staat kommuniziert über
+die Plattform, also nutzen Bürger die Plattform.
+
+### Infrastruktur-Souveränität
+
+Ein Staat, der auf proprietären Plattformen kommuniziert (Facebook,
+WhatsApp, Instagram), begibt sich in Abhängigkeit. Er kann weder die
+Datenschutzregeln, noch die Moderationslogik, noch die
+Archivierungspflichten kontrollieren. Jede Änderung der AGB eines
+US-Konzerns kann die öffentliche Kommunikation einer Gemeinde
+beschädigen.
+
+LOCUTERRA unter MIT-Lizenz gibt dem Staat volle Souveränität:
+
+- **Anpassung an Recht:** Die Struktur kann jederzeit an
+  Datenschutzrecht (DSGVO), Barrierefreiheitsanforderungen
+  (BITV/EN 301 549), Archivierungspflichten oder neue gesetzliche
+  Vorgaben angepasst werden — ohne Verhandlung mit einem Plattform-
+  betreiber.
+- **Keine Abhängigkeit:** Kein Vendor-Lock-in, kein Plattformrisiko,
+  kein einseitiges Abschalten.
+- **Übertragbarkeit:** Die Software kann von jeder Kommune, jedem
+  Land, jedem öffentlichen Träger übernommen und betrieben werden.
+- **Gemeinfreiheit der Struktur:** Der Staat erwirbt keine Lizenz —
+  er nutzt ein Gemeingut. Das ist der Unterschied zwischen Miete
+  und Eigentum.
+
 ## Säule 2: Arena-Modell (Ortsbezogenes Sponsoring)
 
 Das Arena-Modell ist das zentrale Finanzierungsinstrument, das
@@ -101,9 +144,72 @@ Sponsoring an seinem Ort zulässig ist.
   erlaubt ist.
 - **Sperrrecht:** Der Eigentümer kann Sponsoring jederzeit wieder
   deaktivieren. Laufende Sponsorings enden dann zum Monatsende.
+- **Vermietung:** Eigentümer können ihre Orte oder einzelne
+  Schildplätze auch direkt an Unternehmen vermieten, statt die
+  Auktionsmechanik zu nutzen. In diesem Fall entfällt die Auktion;
+  der Eigentümer verhandelt selbst und der Plattformanteil (50 %)
+  wird automatisch abgeführt.
 
 Bei öffentlichen Orten (Marktplatz, Park, Spielplatz) liegt die
 Entscheidung beim Plattformbetreiber oder der zuständigen Kommune.
+
+### Kommunale Zonierung: Ruhe- und Werbebereiche
+
+Kommunen können in ihrem Gebiet **Ruhezonen** und **Werbebereiche**
+festlegen:
+
+- **Ruhezonen:** Orte, an denen jede Form von Sponsoring und
+  Schildwerbung gesperrt ist. Beispiele: Baggersee, Friedhof,
+  Naturschutzgebiet, Schulgelände, Krankenhausumfeld. Wer am See
+  der Kommune liegt, soll keine Werbung erhalten.
+- **Werbebereiche:** Orte, an denen Sponsoring grundsätzlich erlaubt
+  ist (mit Opt-in der Eigentümer). Beispiele: Einkaufsstraßen,
+  Gewerbegebiete, Marktplätze, Veranstaltungsorte.
+- **Standard:** Ohne kommunale Festlegung gilt das allgemeine
+  Opt-in-Prinzip (Eigentümer entscheidet).
+
+Die Zonierung gibt Kommunen ein Steuerungsinstrument, das es bei
+keiner bestehenden Plattform gibt: räumliche Kontrolle über die
+kommerzielle Nutzung des digitalen öffentlichen Raums.
+
+### GPS-gestützte Benachrichtigungen
+
+Digitale Schilder können optional an die GPS-Position des Nutzers
+gekoppelt werden:
+
+- **Passiv (Standard):** Das Schild erscheint auf der Ortsseite.
+  Der Nutzer sieht es nur, wenn er die Seite aktiv öffnet.
+- **Aktiv (Opt-in):** Wenn der Nutzer die GPS-Benachrichtigungen
+  freischaltet und sich physisch in die Nähe eines gesponserten
+  Ortes bewegt, kann eine Push-Benachrichtigung ausgelöst werden.
+  Beispiel: „Du bist in der Nähe des Marktplatzes — Bäckerei
+  Müller hat heute frische Brötchen."
+
+Die GPS-Benachrichtigung ist:
+- **Nur bei expliziter Nutzer-Einwilligung** (Opt-in, jederzeit
+  widerrufbar)
+- **Frequenzbegrenzt** (z.B. maximal eine Benachrichtigung pro Ort
+  pro Tag)
+- **In Ruhezonen gesperrt** (kommunale Zonierung hat Vorrang)
+
+### Kreative Werbeformate
+
+Das Arena-Modell eröffnet Werbeformate, die auf herkömmlichen
+Plattformen nicht möglich sind:
+
+- **Schatzsuche:** „Finde unser Schild an einem der 9 Orte in
+  Grüntal" — Unternehmen können spielerische Aktionen mit ihren
+  gesponserten Orten verknüpfen. Wer alle Schilder findet, erhält
+  einen Rabatt oder eine Belohnung.
+- **Saisonale Schilder:** Weihnachtsmarkt-Sponsoring, Sommerfest-
+  Partner, Erntedank-Aktion — zeitlich an lokale Ereignisse
+  gebunden.
+- **Community-Sponsoring:** Ein Unternehmen sponsert den Ort einer
+  gemeinnützigen Gruppe und wird dort als Unterstützer sichtbar —
+  lokales Mäzenatentum statt anonymer Bannerwerbung.
+
+Diese Formate funktionieren nur, weil LOCUTERRA auf realen Orten
+basiert. Sie sind nicht übertragbar auf feed-basierte Plattformen.
 
 ### Erlösverteilung
 
@@ -190,6 +296,14 @@ Folgende Finanzierungsformen schließt LOCUTERRA bewusst aus:
 - [ ] Steuerliche Behandlung der Erlösverteilung an Ortseigentümer
 - [ ] Moderation: Welche Unternehmen/Branchen dürfen sponsern?
   (Tabak? Alkohol? Glücksspiel?)
+- [ ] GPS-Benachrichtigungen: Datenschutzfolgenabschätzung (DSFA)
+  für standortbasierte Push-Nachrichten
+- [ ] Zonierungsrecht: Können Kommunen Werbe-/Ruhezonen per Satzung
+  regeln, oder braucht es Landesrecht?
+- [ ] Vermietungsmodell: Wie wird die Plattformgebühr (50 %) bei
+  Direktvermietung technisch abgerechnet?
+- [ ] Gamification-Regeln: Grenzen für Schatzsuche-Formate
+  (Jugendschutz, Suchtprävention)
 
 ## Abhängigkeiten
 
