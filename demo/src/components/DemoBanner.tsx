@@ -4,7 +4,7 @@ export default function DemoBanner() {
       <strong>Konzept-Demonstrator</strong> &mdash; Dies ist eine nicht-funktionale
       Demo mit fiktiven Daten der Kommune &bdquo;Grüntal&ldquo;.{" "}
       <a
-        href="https://github.com/lukisch/locuterra"
+        href="https://github.com/um-bruch/locuterra"
         className="underline hover:text-amber-700"
         target="_blank"
         rel="noopener noreferrer"
