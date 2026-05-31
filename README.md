@@ -1,5 +1,7 @@
 # LOCUTERRA
 
+*[English version](./README_EN.md)*
+
 > Konzept und Demonstrator für ein gemeinwohlorientiertes, ortsbasiertes
 > Social Network zwischen Bürgern, Institutionen, Kommunen, Organisationen
 > und Unternehmen.
