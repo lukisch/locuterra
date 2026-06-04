@@ -60,10 +60,11 @@ Both belong together but are deliberately documented separately.
 | [RESSOURCEN_UND_MARKTPLATZ.md](./RESSOURCEN_UND_MARKTPLATZ.md) | Separation of resources vs. marketplace |
 | [RESSOURCEN_FLOW.md](./RESSOURCEN_FLOW.md) | Resource offering workflow |
 | [INFORMATIONSKANAL_FLOW.md](./INFORMATIONSKANAL_FLOW.md) | Subscription, companion chat, and contact sharing |
-| [PORTIERUNGSPLAN.md](./PORTIERUNGSPLAN.md) | Platform and rollout roadmap |
-| [DECISIONS.md](./DECISIONS.md) | Architecture and product decisions |
 | [GLOSSARY.md](./GLOSSARY.md) | Project terminology |
 | [Feature_Analyse_LOCUTERRA.md](./Feature_Analyse_LOCUTERRA.md) | Comprehensive feature analysis |
+
+Internal decision and porting notes are maintained locally. The public
+repository only carries stable concept and demonstrator material.
 
 ## Vision
 

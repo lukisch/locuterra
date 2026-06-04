@@ -41,3 +41,7 @@ desktop.ini
 TEST.txt
 TESTS.txt
 releases/
+
+# Internal planning/control files kept local
+DECISIONS.md
+PORTIERUNGSPLAN.md

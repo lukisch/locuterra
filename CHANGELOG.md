@@ -4,7 +4,18 @@ Alle nennenswerten Änderungen an LOCUTERRA werden hier dokumentiert.
 
 ## [Unreleased]
 
+### Geändert
+
+- Öffentliche README-Tabellen auf stabile Konzeptdokumente begrenzt; interne
+  Entscheidungs- und Portierungsnotizen bleiben lokal.
+- Demo-README vom generischen Next.js-Template auf den LOCUTERRA-Demonstrator
+  umgestellt.
+- Next.js-Demo auf `next@16.2.7` und `eslint-config-next@16.2.7`
+  aktualisiert.
+
 ### Hinzugefügt
+
+- GitHub-Actions-Workflow `demo-ci.yml` für Lint und statischen Demo-Build.
 
 - Projekt-Onboarding mit Agentenregeln, Status, TODOs, Feature-Analyse,
   Architekturkonzept, Begriffen und Arbeitsabläufen.

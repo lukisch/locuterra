@@ -62,10 +62,12 @@ trägt). Beide gehören zusammen, sind aber bewusst getrennt dokumentiert.
 | [RESSOURCEN_UND_MARKTPLATZ.md](./RESSOURCEN_UND_MARKTPLATZ.md) | Trennung Ressourcen vs. Marktplatz |
 | [RESSOURCEN_FLOW.md](./RESSOURCEN_FLOW.md) | Ablauf für Ressourcenangebote |
 | [INFORMATIONSKANAL_FLOW.md](./INFORMATIONSKANAL_FLOW.md) | Abo, Begleitchat und Kontaktfreigabe |
-| [PORTIERUNGSPLAN.md](./PORTIERUNGSPLAN.md) | Plattform- und Rolloutpfad |
-| [DECISIONS.md](./DECISIONS.md) | Architektur- und Produktentscheidungen |
 | [GLOSSARY.md](./GLOSSARY.md) | Projektbegriffe |
 | [Feature_Analyse_LOCUTERRA.md](./Feature_Analyse_LOCUTERRA.md) | Umfassende Feature-Analyse |
+
+Interne Entscheidungs- und Portierungsnotizen bleiben lokal gepflegt. Die
+öffentliche Dokumentation enthält nur die stabilen Konzept- und
+Demonstratorunterlagen.
 
 ## Zielbild
 
