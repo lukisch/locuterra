@@ -12,6 +12,8 @@ Alle nennenswerten Änderungen an LOCUTERRA werden hier dokumentiert.
   umgestellt.
 - Next.js-Demo auf `next@16.2.7` und `eslint-config-next@16.2.7`
   aktualisiert.
+- Optionale `@emnapi/*`-Peer-Abhängigkeiten explizit als Dev-Dependencies
+  gelockt, damit Linux-`npm ci` dieselbe Dependency-Grafik wie lokal nutzt.
 
 ### Hinzugefügt
 
