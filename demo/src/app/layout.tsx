@@ -1,12 +1,18 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import DemoBanner from "@/components/DemoBanner";
+import SwRegister from "@/components/SwRegister";
 
 export const metadata: Metadata = {
   title: "LOCUTERRA — Demonstrator",
   description:
     "Konzept-Demonstrator für ein gemeinwohlorientiertes, ortsbasiertes Social Network.",
+  manifest: "/locuterra/manifest.webmanifest",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#065f46",
 };
 
 export default function RootLayout({
@@ -17,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="de" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
+        <SwRegister />
         <DemoBanner />
         <Navigation />
         <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6">
