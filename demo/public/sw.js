@@ -1,15 +1,10 @@
 const CACHE_NAME = 'locuterra-v1';
 const BASE = '/locuterra';
 
+// Nur garantiert vorhandene Shell-Assets — Routen werden lazy gecacht (fetch handler).
+// cache.addAll() ist atomar; ein 404 würde die gesamte SW-Installation abbrechen.
 const ASSETS = [
   BASE + '/',
-  BASE + '/index.html',
-  BASE + '/orte',
-  BASE + '/gruppen',
-  BASE + '/ressourcen',
-  BASE + '/kanaele',
-  BASE + '/nachrichten',
-  BASE + '/profil',
   BASE + '/manifest.webmanifest',
   BASE + '/icons/Icon-192.png',
   BASE + '/icons/Icon-512.png',
