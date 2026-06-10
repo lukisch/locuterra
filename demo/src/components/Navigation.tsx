@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { isNavActive } from "@/lib/isNavActive";
 
 const navItems = [
   { href: "/", label: "Übersicht", icon: "\u{1F3E0}" },
@@ -26,10 +27,7 @@ export default function Navigation() {
           </Link>
           <div className="hidden md:flex items-center gap-1">
             {navItems.map((item) => {
-              const active =
-                item.href === "/"
-                  ? pathname === "/"
-                  : pathname.startsWith(item.href);
+              const active = isNavActive(pathname, item.href);
               return (
                 <Link
                   key={item.href}
@@ -51,10 +49,7 @@ export default function Navigation() {
       {/* Mobile navigation */}
       <div className="md:hidden flex overflow-x-auto border-t border-gray-100 px-2 py-1 gap-1">
         {navItems.map((item) => {
-          const active =
-            item.href === "/"
-              ? pathname === "/"
-              : pathname.startsWith(item.href);
+          const active = isNavActive(pathname, item.href);
           return (
             <Link
               key={item.href}
