@@ -1,0 +1,44 @@
+# locuterra - Civic Social Network Concept and Demonstrator
+
+> LOCUTERRA is a fully specified, open-source concept for a public-interest, location-based social network. It is freely donated for municipalities, non-profit organisations, and public-sector institutions to build upon. The repository includes a Next.js/React/TypeScript demonstrator with a fictional municipality ("Grüntal") and synthetic data.
+
+Part of the Um:bruch civic tech family. MIT.
+
+## Docs
+
+- [README.md](https://github.com/um-bruch/locuterra/blob/master/README.md): English overview, demonstrator setup, and concept document index.
+- [README_de.md](https://github.com/um-bruch/locuterra/blob/master/README_de.md): German localization.
+- [KONZEPT.md](https://github.com/um-bruch/locuterra/blob/master/KONZEPT.md): Original product idea and MVP scope.
+- [ARCHITECTURE.md](https://github.com/um-bruch/locuterra/blob/master/ARCHITECTURE.md): Technical target stack and domain modules.
+- [GOVERNANCE.md](https://github.com/um-bruch/locuterra/blob/master/GOVERNANCE.md): Stewardship, moderation, and appeals model.
+- [DATENSCHUTZ.md](https://github.com/um-bruch/locuterra/blob/master/DATENSCHUTZ.md): Data protection and consent model.
+- [ROLES_AND_RIGHTS.md](https://github.com/um-bruch/locuterra/blob/master/ROLES_AND_RIGHTS.md): Actor, role, and permissions model.
+- [FINANZIERUNGSKONZEPT.md](https://github.com/um-bruch/locuterra/blob/master/FINANZIERUNGSKONZEPT.md): Arena model, sponsoring, and revenue sharing.
+- [CHANGELOG.md](https://github.com/um-bruch/locuterra/blob/master/CHANGELOG.md): Project version history.
+- [LICENSE](https://github.com/um-bruch/locuterra/blob/master/LICENSE): MIT license text.
+
+## Demonstrator
+
+Live demo: https://um-bruch.github.io/locuterra/
+
+Built with Next.js, React, and TypeScript. Shows fictional municipality "Grüntal" with synthetic data: 9 places, 5 groups, 8 resources, 2 information channels, direct messages. Statically exportable, no backend required.
+
+## Audience
+
+- Municipalities and public-sector institutions seeking a civic social network blueprint
+- Non-profit organisations building local community digital infrastructure
+- Civic tech developers and researchers studying location-based social networks
+- Open-source contributors interested in PWA-first community platform design
+- Policy makers and digital commons advocates exploring participatory local platforms
+
+## Search Phrases
+
+- locuterra civic social network open source concept
+- location-based community platform municipalities blueprint
+- ortsbasiertes Social Network Bürger Kommunen Open Source
+- civic tech local community network Next.js React TypeScript
+- public interest social network GDPR compliant open concept
+- Gemeinwohl Social Network Konzept MIT Lizenz
+- open civic platform non-profit municipalities demonstrator
+
+## Last-checked: 2026-06-10

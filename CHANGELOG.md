@@ -4,7 +4,20 @@ Alle nennenswerten Änderungen an LOCUTERRA werden hier dokumentiert.
 
 ## [Unreleased]
 
+### Hinzugefügt
+
+- `llms.txt` für LLM-Crawler-Indexierung (Audience, Search Phrases, Last-checked).
+- `README_de.md` als dedizierte deutsche Übersetzung.
+
 ### Geändert
+
+- `README.md` auf English-first umgestellt; German content in `README_de.md` verlagert.
+- `README_EN.md` entfernt (Inhalt jetzt in `README.md`).
+- GitHub-Topics gesetzt: civic-tech, social-network, location-based, pwa, nextjs, react, typescript, open-concept, municipalities, community-platform.
+
+---
+
+### Geändert (ältere Unreleased-Einträge)
 
 - Öffentliche README-Tabellen auf stabile Konzeptdokumente begrenzt; interne
   Entscheidungs- und Portierungsnotizen bleiben lokal.

@@ -1,35 +1,35 @@
 # LOCUTERRA
 
-*[English version](./README_EN.md)*
+> [Deutsche Dokumentation](README_de.md)
 
-> Konzept und Demonstrator für ein gemeinwohlorientiertes, ortsbasiertes
-> Social Network zwischen Bürgern, Institutionen, Kommunen, Organisationen
-> und Unternehmen.
+> Concept and demonstrator for a public-interest, location-based
+> social network connecting citizens, institutions, municipalities,
+> organisations, and businesses.
 
-LOCUTERRA soll lokale Gesellschaft digital vernetzen, ohne nur ein weiterer
-globaler Feed zu sein. Im Zentrum stehen reale Orte, Ebenenreichweiten,
-öffentliche und private Gruppen, Ressourcenangebote, Informationskanäle,
-Bürgerkontaktstellen, Direktnachrichten und ortsbezogene Warnungen.
+LOCUTERRA aims to digitally connect local civic life without becoming
+just another global feed. At its core are real places, reach levels,
+public and private groups, resource sharing, information channels,
+citizen contact points, direct messages, and location-based alerts.
 
-**Dieses Repository ist ein Geschenk:** Wir stellen das gesamte Konzept
-frei zur Verfügung, damit Kommunen, gemeinnützige Organisationen oder
-öffentlich-rechtliche Träger es aufgreifen und umsetzen können.
+**This repository is a gift:** We are making the entire concept freely
+available so that municipalities, non-profit organisations, or
+public-sector institutions can pick it up and build it.
 
 ## Demonstrator
 
-**[Live-Demo ansehen](https://um-bruch.github.io/locuterra/)**
+**[View the live demo](https://um-bruch.github.io/locuterra/)**
 
-Im Ordner [`demo/`](./demo) liegt der Quellcode des Konzept-Demonstrators,
-gebaut mit Next.js, React und TypeScript. Er zeigt die fiktive Kommune
-**Grüntal** mit synthetischen Daten:
+The [`demo/`](./demo) folder contains the source code of the concept
+demonstrator, built with Next.js, React, and TypeScript. It shows the
+fictional municipality of **Grüntal** with synthetic data:
 
-- **9 Orte** (Stadtteile, Treffpunkte, Einrichtungen)
-- **5 Gruppen** (Nachbarschaftshilfe, Gartenverein, Elterntreff, ...)
-- **8 Ressourcen** (Geräte, Skills, Gesuche, Hilfe)
-- **2 Informationskanäle** mit Beiträgen
-- **Direktnachrichten** zwischen fiktiven Bürgern
+- **9 places** (districts, meeting points, facilities)
+- **5 groups** (neighbourhood help, garden club, parents' meetup, ...)
+- **8 resources** (tools, skills, requests, help)
+- **2 information channels** with posts
+- **Direct messages** between fictional citizens
 
-### Demonstrator starten
+### Run the demonstrator
 
 ```bash
 cd demo
@@ -37,77 +37,76 @@ npm install
 npm run dev
 ```
 
-Dann im Browser: `http://localhost:3000`
+Then open `http://localhost:3000` in your browser.
 
-Der Demonstrator ist ein statisch exportierbarer Prototyp ohne Backend.
-Alle Daten sind fiktiv und leben im Client.
+The demonstrator is a statically exportable prototype with no backend.
+All data is fictional and lives in the client.
 
-## Konzeptdokumente
+## Concept documents
 
-LOCUTERRA besteht aus zwei Konzepten: dem **Plattformkonzept** (wie das
-Netzwerk funktioniert) und dem **Finanzierungskonzept** (wie es sich
-trägt). Beide gehören zusammen, sind aber bewusst getrennt dokumentiert.
+LOCUTERRA consists of two concepts: the **platform concept** (how the
+network works) and the **financing concept** (how it sustains itself).
+Both belong together but are deliberately documented separately.
 
-| Dokument | Inhalt |
+| Document | Contents |
 |---|---|
-| [KONZEPT.md](./KONZEPT.md) | Ursprüngliche Produktidee und MVP-Schnitt |
-| [FINANZIERUNGSKONZEPT.md](./FINANZIERUNGSKONZEPT.md) | Arena-Modell, Sponsoring und Erlösverteilung |
-| [ARCHITECTURE.md](./ARCHITECTURE.md) | Technischer Zielstack und Domänenmodule |
-| [DATENMODELL.md](./DATENMODELL.md) | Logisches Datenmodell für den MVP |
-| [DATENSCHUTZ.md](./DATENSCHUTZ.md) | Datenschutz- und Einwilligungsmodell |
-| [GOVERNANCE.md](./GOVERNANCE.md) | Trägerschaft, Moderation und Einspruch |
-| [ROLES_AND_RIGHTS.md](./ROLES_AND_RIGHTS.md) | Akteurs-, Rollen- und Rechtekonzept |
-| [REICHWEITENMODELL.md](./REICHWEITENMODELL.md) | Reichweitenstufen (privat bis transnational) |
-| [SICHERHEIT_UND_MISSBRAUCH.md](./SICHERHEIT_UND_MISSBRAUCH.md) | Sicherheits- und Missbrauchsrisiken |
-| [RESSOURCEN_UND_MARKTPLATZ.md](./RESSOURCEN_UND_MARKTPLATZ.md) | Trennung Ressourcen vs. Marktplatz |
-| [RESSOURCEN_FLOW.md](./RESSOURCEN_FLOW.md) | Ablauf für Ressourcenangebote |
-| [INFORMATIONSKANAL_FLOW.md](./INFORMATIONSKANAL_FLOW.md) | Abo, Begleitchat und Kontaktfreigabe |
-| [GLOSSARY.md](./GLOSSARY.md) | Projektbegriffe |
-| [Feature_Analyse_LOCUTERRA.md](./Feature_Analyse_LOCUTERRA.md) | Umfassende Feature-Analyse |
+| [KONZEPT.md](./KONZEPT.md) | Original product idea and MVP scope |
+| [FINANZIERUNGSKONZEPT.md](./FINANZIERUNGSKONZEPT.md) | Arena model, sponsoring, and revenue sharing |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | Technical target stack and domain modules |
+| [DATENMODELL.md](./DATENMODELL.md) | Logical data model for the MVP |
+| [DATENSCHUTZ.md](./DATENSCHUTZ.md) | Data protection and consent model |
+| [GOVERNANCE.md](./GOVERNANCE.md) | Stewardship, moderation, and appeals |
+| [ROLES_AND_RIGHTS.md](./ROLES_AND_RIGHTS.md) | Actor, role, and permissions model |
+| [REICHWEITENMODELL.md](./REICHWEITENMODELL.md) | Reach levels (private to transnational) |
+| [SICHERHEIT_UND_MISSBRAUCH.md](./SICHERHEIT_UND_MISSBRAUCH.md) | Security and abuse risks |
+| [RESSOURCEN_UND_MARKTPLATZ.md](./RESSOURCEN_UND_MARKTPLATZ.md) | Separation of resources vs. marketplace |
+| [RESSOURCEN_FLOW.md](./RESSOURCEN_FLOW.md) | Resource offering workflow |
+| [INFORMATIONSKANAL_FLOW.md](./INFORMATIONSKANAL_FLOW.md) | Subscription, companion chat, and contact sharing |
+| [GLOSSARY.md](./GLOSSARY.md) | Project terminology |
+| [Feature_Analyse_LOCUTERRA.md](./Feature_Analyse_LOCUTERRA.md) | Comprehensive feature analysis |
 
-Interne Entscheidungs- und Portierungsnotizen bleiben lokal gepflegt. Die
-öffentliche Dokumentation enthält nur die stabilen Konzept- und
-Demonstratorunterlagen.
+Internal decision and porting notes are maintained locally. The public
+repository only carries stable concept and demonstrator material.
 
-## Zielbild
+## Vision
 
-LOCUTERRA denkt Kommunikation räumlich:
+LOCUTERRA thinks about communication spatially:
 
-- **Bürger** können Ressourcen, Skills, Gesuche und lokale Gruppen teilen.
-- **Institutionen und Kommunen** können Informationskanäle,
-  Bürgerkontaktstellen, öffentliche Orte und Krisenwarnungen betreiben.
-- **Gemeinnützige Organisationen** können eigene Kanäle, Orte und
-  Kontaktangebote pflegen.
-- **Ressourcen** bleiben nicht-kommerziell; Geldflüsse gehören in ein
-  getrenntes Marktplatzsystem.
+- **Citizens** can share resources, skills, requests, and local groups.
+- **Institutions and municipalities** can operate information channels,
+  citizen contact points, public places, and crisis alerts.
+- **Non-profit organisations** can maintain their own channels, places,
+  and contact offerings.
+- **Resources** remain non-commercial; monetary transactions belong in
+  a separate marketplace system.
 
-## Technischer Zielstack
+## Technical target stack
 
-Der MVP ist als **Webapp/PWA-first** konzipiert:
+The MVP is designed as **webapp/PWA-first**:
 
 - **Frontend:** TypeScript, React, Next.js
-- **Datenhaltung:** PostgreSQL mit Prisma
-- **Validierung:** Zod
-- **Tests:** Vitest, Playwright
-- **Plattform:** Webapp zuerst; native Shells erst bei echtem Bedarf
+- **Data storage:** PostgreSQL with Prisma
+- **Validation:** Zod
+- **Testing:** Vitest, Playwright
+- **Platform:** Webapp first; native shells only when genuinely needed
 
-## Für Träger und Umsetzer
+## For stewards and builders
 
-Dieses Konzept ist vollständig durchspezifiziert:
+This concept is fully specified:
 
-- MVP-Schnitt, Rollenmodell und Reichweitenmodell stehen
-- Datenmodell, Datenschutz und Governance sind ausgearbeitet
-- Sicherheits- und Missbrauchsrisiken sind dokumentiert
-- Konfliktfälle (Meldung, Triage, Sperre, Einspruch) sind verprobt
+- MVP scope, role model, and reach model are defined
+- Data model, data protection, and governance are worked out
+- Security and abuse risks are documented
+- Conflict scenarios (reporting, triage, suspension, appeal) are tested
 
-Was fehlt: eine **öffentlich-rechtliche oder gemeinnützige Trägerschaft**,
-die das System aufbaut, betreibt und verantwortet. Wir haben das Konzept
-erarbeitet — ihr müsst es nur noch bauen.
+What is missing: a **public-sector or non-profit steward** to build,
+operate, and take responsibility for the system. We developed the
+concept — you just need to build it.
 
-## Lizenz
+## Licence
 
-MIT License. Siehe [LICENSE](./LICENSE).
+MIT License. See [LICENSE](./LICENSE).
 
-## Autor
+## Author
 
 **Lukas Geiger** / [Um:bruch](https://um-bruch.org)
