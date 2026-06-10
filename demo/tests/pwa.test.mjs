@@ -145,3 +145,78 @@ test('SwRegister.tsx registriert /locuterra/sw.js', () => {
     'SwRegister.tsx: /locuterra/sw.js-Pfad fehlt'
   );
 });
+
+// --- PWA_POLICY.md ---
+
+const pwaPolicy = resolve(root, '..', 'PWA_POLICY.md');
+
+test('PWA_POLICY.md existiert', () => {
+  assert.ok(existsSync(pwaPolicy), 'PWA_POLICY.md fehlt im Projektordner');
+});
+
+test('PWA_POLICY.md enthält Abschnitt Web Push', () => {
+  const c = readFileSync(pwaPolicy, 'utf-8');
+  assert.ok(c.includes('Web Push') || c.includes('Push-Benachrichtigung'),
+    'Kein Web-Push-Abschnitt in PWA_POLICY.md');
+});
+
+test('PWA_POLICY.md enthält Abschnitt Offline', () => {
+  const c = readFileSync(pwaPolicy, 'utf-8');
+  assert.ok(c.includes('Offline'), 'Kein Offline-Abschnitt in PWA_POLICY.md');
+});
+
+test('PWA_POLICY.md enthält Abschnitt Standort', () => {
+  const c = readFileSync(pwaPolicy, 'utf-8');
+  assert.ok(c.includes('Standort') || c.includes('Geolocation'),
+    'Kein Standort-Abschnitt in PWA_POLICY.md');
+});
+
+test('PWA_POLICY.md enthält Abschnitt Consent/Einwilligung', () => {
+  const c = readFileSync(pwaPolicy, 'utf-8');
+  assert.ok(c.includes('Consent') || c.includes('Einwilligung'),
+    'Kein Consent-Abschnitt in PWA_POLICY.md');
+});
+
+// --- SCREENMAP.md ---
+
+const screenmap = resolve(root, '..', 'SCREENMAP.md');
+
+test('SCREENMAP.md existiert', () => {
+  assert.ok(existsSync(screenmap), 'SCREENMAP.md fehlt im Projektordner');
+});
+
+test('SCREENMAP.md enthält alle 5 Hauptrouten', () => {
+  const c = readFileSync(screenmap, 'utf-8');
+  for (const route of ['/orte', '/gruppen', '/ressourcen', '/kanaele', '/nachrichten']) {
+    assert.ok(c.includes(route), `SCREENMAP.md: Route "${route}" fehlt`);
+  }
+});
+
+test('SCREENMAP.md erwähnt Mobile-Navigation', () => {
+  const c = readFileSync(screenmap, 'utf-8');
+  assert.ok(c.includes('Navigation') || c.includes('Bottom-Bar') || c.includes('nav'),
+    'SCREENMAP.md: Kein Abschnitt zur mobilen Navigation');
+});
+
+// --- kanaele/[id] Route ---
+
+test('kanaele/[id]/page.tsx existiert', () => {
+  assert.ok(
+    exists('src/app/kanaele/[id]/page.tsx'),
+    'demo/src/app/kanaele/[id]/page.tsx fehlt'
+  );
+});
+
+test('kanaele/[id]/page.tsx enthält generateStaticParams', () => {
+  assert.ok(
+    read('src/app/kanaele/[id]/page.tsx').includes('generateStaticParams'),
+    'kanaele/[id]/page.tsx: generateStaticParams fehlt'
+  );
+});
+
+test('kanaele/[id]/page.tsx enthält getChannel', () => {
+  assert.ok(
+    read('src/app/kanaele/[id]/page.tsx').includes('getChannel'),
+    'kanaele/[id]/page.tsx: getChannel-Import fehlt'
+  );
+});
