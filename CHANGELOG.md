@@ -6,11 +6,17 @@ Alle nennenswerten Änderungen an LOCUTERRA werden hier dokumentiert.
 
 ### Hinzugefügt
 
+- Demo-Screenshot `demo/public/demo-preview.png` als README-Vorschau,
+  Web-App-Manifest-Screenshot und Social-Sharing-Bild.
 - `llms.txt` für LLM-Crawler-Indexierung (Audience, Search Phrases, Last-checked).
 - `README_de.md` als dedizierte deutsche Übersetzung.
 
 ### Geändert
 
+- Next.js-Metadaten um Canonical-URL, Keywords, OpenGraph- und Twitter-Preview
+  für bessere Auffindbarkeit der GitHub-Pages-Demo erweitert.
+- `llms.txt` auf `Last-checked: 2026-06-12` aktualisiert und um die Demo-Vorschau
+  ergänzt.
 - `README.md` auf English-first umgestellt; German content in `README_de.md` verlagert.
 - `README_EN.md` entfernt (Inhalt jetzt in `README.md`).
 - GitHub-Topics gesetzt: civic-tech, social-network, location-based, pwa, nextjs, react, typescript, open-concept, municipalities, community-platform.

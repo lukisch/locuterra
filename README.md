@@ -19,6 +19,8 @@ public-sector institutions can pick it up and build it.
 
 **[View the live demo](https://um-bruch.github.io/locuterra/)**
 
+![LOCUTERRA demo home screen](demo/public/demo-preview.png)
+
 The [`demo/`](./demo) folder contains the source code of the concept
 demonstrator, built with Next.js, React, and TypeScript. It shows the
 fictional municipality of **Grüntal** with synthetic data:
@@ -28,6 +30,9 @@ fictional municipality of **Grüntal** with synthetic data:
 - **8 resources** (tools, skills, requests, help)
 - **2 information channels** with posts
 - **Direct messages** between fictional citizens
+
+The demo preview is also used as the social sharing image for the GitHub
+Pages build.
 
 ### Run the demonstrator
 

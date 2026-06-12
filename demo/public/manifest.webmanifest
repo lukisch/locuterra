@@ -12,6 +12,15 @@
   "background_color": "#ffffff",
   "lang": "de",
   "categories": ["social", "productivity"],
+  "screenshots": [
+    {
+      "src": "/locuterra/demo-preview.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "LOCUTERRA demo home screen"
+    }
+  ],
   "icons": [
     {
       "src": "/locuterra/icons/Icon-192.png",

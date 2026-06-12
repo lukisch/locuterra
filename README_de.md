@@ -19,6 +19,8 @@ frei zur Verfügung, damit Kommunen, gemeinnützige Organisationen oder
 
 **[Live-Demo ansehen](https://um-bruch.github.io/locuterra/)**
 
+![LOCUTERRA Demo-Startseite](demo/public/demo-preview.png)
+
 Im Ordner [`demo/`](./demo) liegt der Quellcode des Konzept-Demonstrators,
 gebaut mit Next.js, React und TypeScript. Er zeigt die fiktive Kommune
 **Grüntal** mit synthetischen Daten:
@@ -28,6 +30,9 @@ gebaut mit Next.js, React und TypeScript. Er zeigt die fiktive Kommune
 - **8 Ressourcen** (Geräte, Skills, Gesuche, Hilfe)
 - **2 Informationskanäle** mit Beiträgen
 - **Direktnachrichten** zwischen fiktiven Bürgern
+
+Die Demo-Vorschau wird zugleich als Social-Sharing-Bild für den
+GitHub-Pages-Build genutzt.
 
 ### Demonstrator starten
 

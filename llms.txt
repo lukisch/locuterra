@@ -20,6 +20,7 @@ Part of the Um:bruch civic tech family. MIT.
 ## Demonstrator
 
 Live demo: https://um-bruch.github.io/locuterra/
+Demo preview image: https://um-bruch.github.io/locuterra/demo-preview.png
 
 Built with Next.js, React, and TypeScript. Shows fictional municipality "Grüntal" with synthetic data: 9 places, 5 groups, 8 resources, 2 information channels, direct messages. Statically exportable, no backend required.
 
@@ -41,4 +42,4 @@ Built with Next.js, React, and TypeScript. Shows fictional municipality "Grünta
 - Gemeinwohl Social Network Konzept MIT Lizenz
 - open civic platform non-profit municipalities demonstrator
 
-## Last-checked: 2026-06-10
+## Last-checked: 2026-06-12

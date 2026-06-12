@@ -5,9 +5,45 @@ import DemoBanner from "@/components/DemoBanner";
 import SwRegister from "@/components/SwRegister";
 
 export const metadata: Metadata = {
-  title: "LOCUTERRA — Demonstrator",
+  metadataBase: new URL("https://um-bruch.github.io"),
+  title: "LOCUTERRA — Civic Social Network Demonstrator",
   description:
-    "Konzept-Demonstrator für ein gemeinwohlorientiertes, ortsbasiertes Social Network.",
+    "Open-source concept demonstrator for a public-interest, location-based civic social network.",
+  keywords: [
+    "LOCUTERRA",
+    "civic social network",
+    "location-based community platform",
+    "municipal digital commons",
+    "public interest social network",
+    "Next.js civic tech demonstrator",
+  ],
+  alternates: {
+    canonical: "/locuterra/",
+  },
+  openGraph: {
+    title: "LOCUTERRA — Civic Social Network Demonstrator",
+    description:
+      "A public-interest, location-based civic network concept for municipalities, non-profits, and public-sector stewards.",
+    url: "/locuterra/",
+    siteName: "LOCUTERRA",
+    images: [
+      {
+        url: "/locuterra/demo-preview.png",
+        width: 1280,
+        height: 720,
+        alt: "LOCUTERRA demo home screen for the fictional municipality Grüntal",
+      },
+    ],
+    locale: "de_DE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LOCUTERRA — Civic Social Network Demonstrator",
+    description:
+      "Open-source concept demonstrator for a public-interest, location-based civic social network.",
+    images: ["/locuterra/demo-preview.png"],
+  },
   manifest: "/locuterra/manifest.webmanifest",
 };
 
